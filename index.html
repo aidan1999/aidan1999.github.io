@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<style>
+			body{
+				background-color:#111111;
+                background-image: url("background.jpg");
+   				background-repeat: no-repeat;
+                background-attachment: absolute;
+                background-position: center top;
+                padding: 0px;
+                margin: 0px;
+			}
+			
+			#header{
+				background-color:#111111;
+				width: 100%;
+				height:155px;
+                opacity:.9;
+			}
+			img{
+				width:500px;
+                margin-left:35%;
+                
+                
+			}
+			ul{
+				margin-left: 5%;
+				margin-top: 50px;
+				list-style: none;
+			}
+			li{
+				height:290px;
+				width:390px;
+				background-color:white;
+				margin-right:40px;
+				display:inline-block;
+				float: left;
+				text-align: center;
+                border: 5px solid black;
+				border-style:inset;
+			}
+            #tab {
+                height:299px;
+				width:399px;
+				background-color:white;
+				margin-right:40px;
+				display:inline-block;
+				float: left;
+            }
+			li:hover{
+				opacity:.6;
+			}
+			p{
+				font-family: "Impact", Impact, sans-serif;
+				color:white;
+                font-size:30px;
+				margin-top: 32%;
+			}
+            
+            #clothes{
+                background-image: url("clothes.jpg");
+            }
+            #acc {
+                background-image: url("volkswagen-vw-car-logo-lanyard-keyring-strong-neck-strap-key-holder-lyd.jpg");
+            }
+            
+            #gal{
+                background-image: url("GTI%20Mk4%20background.jpg");
+                
+                background-position: center;
+            }
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<a href="index.html"> <img src = "logo.png"></a>
+		</div>
+		<div id = "content">
+			<ul>
+				<a  href = "clothing.html"><div id="tab"><li id="clothes"><p>Clothes</p></li></div></a>
+                <a  href = "acc.html"><div id="tab"><li id="acc"><p>Accessories</p></li></div></a>
+                <a  href = "gallery.html"><div id="tab"><li id ="gal"><p>Gallery</p></li></div></a>
+			</ul>
+		</div>
+	</body>
+</html>
